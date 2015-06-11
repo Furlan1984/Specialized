@@ -20,7 +20,7 @@ IS
 -------------------------------
 -- Function to get account info
 -------------------------------
-   FUNCTION fnc_get_account_info( p_direct_debit  VARCHAR2
+   FUNCTION fnc_get_account_info( p_direct_debit VARCHAR2
                                 , p_customer_id  NUMBER
                                 ) RETURN VARCHAR2;
 
